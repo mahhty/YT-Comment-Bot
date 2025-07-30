@@ -130,6 +130,15 @@ public enum BuildingType
     Decoration
 }
 
+public enum BuildingTier
+{
+    Twig,      // Basic wood structures - very weak
+    Wood,      // Standard wood - moderate strength
+    Stone,     // Stone - strong against melee, weak to explosives
+    Metal,     // Metal - strong against most attacks
+    HQM        // High Quality Metal - strongest tier
+}
+
 public enum BuildingCategory
 {
     Structure,

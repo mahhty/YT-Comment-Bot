@@ -1,23 +1,25 @@
-# Mobile Survival Game (Rust-like)
+# Deteriorate - Multiplayer Survival Game
 
-A mobile survival game inspired by Rust, featuring resource gathering, crafting, building, and survival mechanics optimized for touch devices.
+A multiplayer survival game inspired by Rust, featuring online-only gameplay, base building, PvP combat, sleeper system, and HQM upgrades. Built for mobile devices with touch-optimized controls.
 
 ## Features
 
 ### Core Gameplay
-- **Resource Gathering**: Collect wood, stone, metal ore, food, and water
-- **Crafting System**: Create tools, weapons, and building materials
-- **Base Building**: Construct shelters and defensive structures
-- **Survival Mechanics**: Manage hunger, thirst, health, and temperature
-- **Combat System**: Fight against wildlife and other threats
-- **Progression System**: Unlock new recipes and abilities
+- **Multiplayer Only**: Online persistent world with up to 100+ players
+- **Sleeper System**: Offline players remain as sleeping NPCs that can be looted
+- **Resource Gathering**: Collect wood, stone, metal ore, sulfur, and HQM
+- **Advanced Building**: Multi-tier building system (Wood → Stone → Metal → HQM)
+- **Base Raiding**: Attack and defend player bases with explosives and tools
+- **PvP Combat**: Full player vs player combat with weapons and armor
+- **Tool Cupboards**: Building authorization and decay prevention
+- **Rust-like Survival**: Health, hunger, thirst, radiation, and cold mechanics
 
 ### Mobile Optimizations
-- **Touch Controls**: Intuitive joystick and tap-based interface
-- **Performance Optimized**: Designed for mobile hardware limitations
-- **Battery Efficient**: Optimized rendering and processing
+- **Touch Controls**: Intuitive joystick and tap-based interface optimized for PvP
+- **Performance Optimized**: Efficient networking and rendering for mobile
+- **Battery Efficient**: Optimized for extended multiplayer sessions
 - **Responsive UI**: Scales across different screen sizes
-- **Offline Play**: Works without internet connection
+- **Server Browser**: Connect to official and community servers
 
 ## Getting Started
 

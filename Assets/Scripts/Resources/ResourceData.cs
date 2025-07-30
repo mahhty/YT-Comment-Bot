@@ -35,13 +35,18 @@ public enum ResourceType
     Wood,
     Stone,
     MetalOre,
+    HighQualityMetal, // HQM - rare upgrade material
     Food,
     Water,
     Fiber,
     Coal,
     Sulfur,
     AnimalHide,
-    Cloth
+    Cloth,
+    LowGradeFuel,
+    Scrap,
+    TechTrash,
+    Components
 }
 
 public enum ToolType
