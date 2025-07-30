@@ -25,6 +25,7 @@ public class CraftingRecipe : ScriptableObject
     
     [Header("Crafting Station")]
     public CraftingStationType requiredStation = CraftingStationType.None;
+    public int requiredWorkbench = 1; // Workbench tier required (1, 2, 3, 0 = research table)
     
     [Header("Experience")]
     public int experienceGained = 10;
@@ -109,7 +110,15 @@ public enum CraftingCategory
     Building,
     Consumables,
     Clothing,
-    Misc
+    Misc,
+    BasicArmor,     // Workbench Tier 1
+    MediumArmor,    // Workbench Tier 2
+    HeavyArmor,     // Workbench Tier 3
+    Components,     // Crafting components
+    Electronics,    // Electronic items
+    Explosives,     // Explosive items
+    Structure,      // Building structures
+    Advanced        // Highest tier items
 }
 
 public enum CraftingStationType
@@ -118,5 +127,6 @@ public enum CraftingStationType
     Workbench,      // Requires workbench
     Forge,          // Requires forge
     Campfire,       // Requires campfire
-    ChemistryTable  // Requires chemistry table
+    ChemistryTable, // Requires chemistry table
+    ResearchTable   // Requires research table
 }
