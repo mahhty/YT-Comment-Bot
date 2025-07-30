@@ -220,7 +220,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return "Chestplate";
             case ArmorSlot.Pants: return "Pants";
             case ArmorSlot.Boots: return "Boots";
-            case ArmorSlot.Gloves: return "Gloves";
             default: return "Armor";
         }
     }
@@ -233,7 +232,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 25;
             case ArmorSlot.Pants: return 20;
             case ArmorSlot.Boots: return 10;
-            case ArmorSlot.Gloves: return 8;
             default: return 15;
         }
     }
@@ -246,7 +244,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 15;
             case ArmorSlot.Pants: return 12;
             case ArmorSlot.Boots: return 6;
-            case ArmorSlot.Gloves: return 4;
             default: return 8;
         }
     }
@@ -259,7 +256,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 6;
             case ArmorSlot.Pants: return 5;
             case ArmorSlot.Boots: return 2;
-            case ArmorSlot.Gloves: return 2;
             default: return 3;
         }
     }
@@ -272,7 +268,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 80;
             case ArmorSlot.Pants: return 60;
             case ArmorSlot.Boots: return 30;
-            case ArmorSlot.Gloves: return 25;
             default: return 40;
         }
     }
@@ -285,7 +280,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 15;
             case ArmorSlot.Pants: return 12;
             case ArmorSlot.Boots: return 6;
-            case ArmorSlot.Gloves: return 5;
             default: return 8;
         }
     }
@@ -298,7 +292,6 @@ public class ArmorData : ScriptableObject
             case ArmorSlot.Chestplate: return 5;
             case ArmorSlot.Pants: return 4;
             case ArmorSlot.Boots: return 2;
-            case ArmorSlot.Gloves: return 1;
             default: return 2;
         }
     }
@@ -319,11 +312,10 @@ public enum ArmorType
 
 public enum ArmorSlot
 {
-    Helmet,
-    Chestplate,
-    Pants,
-    Boots,
-    Gloves
+    Helmet,     // Head protection
+    Chestplate, // Chest protection  
+    Pants,      // Leg protection
+    Boots       // Feet protection
 }
 
 public enum ArmorTier
